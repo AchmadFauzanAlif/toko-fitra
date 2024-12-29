@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 10px 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; /* Membuat teks dan ikon berada pada sisi yang berlawanan */
+    align-items: center; /* Vertikal align ikon dan teks */
+}
+
+.card-box .icon {
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+    margin-left: auto; /* Dorong ikon ke kanan */
+}
+
+.card-box:hover .icon i {
+    font-size: 80px;
+    transition: 0.5s;
+    /* webkit-transition: 1s;  */
+}
