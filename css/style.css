@@ -6,24 +6,46 @@
 }
 
 .card-box {
-    position: relative;
-    color: #fff;
-    padding: 10px 10px;
-    margin: 20px 0;
-    border-radius: 5px;
     display: flex;
-    justify-content: space-between; /* Membuat teks dan ikon berada pada sisi yang berlawanan */
-    align-items: center; /* Vertikal align ikon dan teks */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-box .icon {
     font-size: 72px;
     color: rgba(0, 0, 0, 0.15);
-    margin-left: auto; /* Dorong ikon ke kanan */
+    transition: font-size 0.5s ease;
 }
 
-.card-box:hover .icon i {
+.card-box:hover .icon {
     font-size: 80px;
-    transition: 0.5s;
-    /* webkit-transition: 1s;  */
+}
+
+.card-box .jumlah p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-box h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+.card-box a {
+    text-decoration: none;
+}
+
+.card-box a:hover {
+    text-decoration: underline;
 }

@@ -45,6 +45,9 @@
                     <h3>Transaksi</h3>
                     <p class=""><a href="" class="text-light link-underline link-underline-opacity-0">Menu Transaksi</a></p>
                 </div>
+                <div class="jumlah">
+                    <p><?= 455 ?></p>
+                </div>
                 <div class="icon">
                     <i class="bi bi-bag-check-fill"></i>
                 </div>
@@ -54,7 +57,10 @@
             <div class="card-box bg-primary">
                 <div>
                     <h3>Barang</h3>
-                    <p class=""><a href="" class="text-light link-underline link-underline-opacity-0">Menu Barang</a></p>
+                    <p class=""><a href="barang/index.php" class="text-light link-underline link-underline-opacity-0">Menu Barang</a></p>
+                </div>
+                <div class="jumlah">
+                    <p><?= 455 ?></p>
                 </div>
                 <div class="icon">
                     <i class="bi bi-archive-fill"></i>
@@ -66,6 +72,9 @@
                 <div>
                     <h3>Laporan</h3>
                     <p class=""><a href="" class="text-light link-underline link-underline-opacity-0">Menu Laporan</a></p>
+                </div>
+                <div class="jumlah">
+                    <p><?= 455 ?></p>
                 </div>
                 <div class="icon">
                     <i class="bi bi-bar-chart-fill"></i>
